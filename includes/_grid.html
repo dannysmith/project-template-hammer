@@ -1,0 +1,32 @@
+<!-- Tell Hammer to Reload -->
+<!-- @reload -->
+
+<!-- Fluid Columns Overlay -->
+<div id="overlay"><div id="underlay"></div><div id="overlay-inner"><div id="col-1">6.3%</div><div id="col-2">6.3%</div><div id="col-3">6.3%</div><div id="col-4">6.3%</div><div id="col-5">6.3%</div><div id="col-6">6.3%</div><div id="col-7">6.3%</div><div id="col-8">6.3%</div><div id="col-9">6.3%</div><div id="col-10">6.3%</div><div id="col-11">6.3%</div><div id="col-12">6.3%</div></div></div>
+
+<style>
+	#overlay {display: block; position: absolute; width: 100%; top: 0; z-index: -1;}
+	#overlay-inner {max-width: 1000px; margin: 0 auto; top: 0; width: 100%;}
+	#overlay-inner div {height: 12000px; background: rgba(244,162,173,0.2); color: rgba(255,0,0,0.3); padding-top: 10px; text-align: center; font-size: 10px; margin-right: 2%; width: 6.3%; float: left; box-sizing: border-box;}
+	#overlay #col-1 {margin-left: 1.2%;}
+	#overlay #col-12 {margin-right: 1.2%;}
+	#underlay {background: url(<!-- @path grid-26.png -->) repeat;position:absolute; top:0;left:0;height: 100%; width: 100%; z-index: -2;}
+	
+	/*  Left and right gutters are 12px (1.2%).
+      Colums are 63px (6.3%).
+      Gutters are 20px (2%).
+
+      12 cols = 97.6  %
+      11 cols = 89.3  %
+      10 cols = 81    %
+       9 cols = 72.7  %
+       8 cols = 64.4  %
+       7 cols = 56.1  %
+       6 cols = 47.8  %
+       5 cols = 39.5  %
+       4 cols = 31.2  %
+       3 cols = 22.9  %
+       2 cols = 14.6  %
+       1 cols = 6.3   %
+  */
+	</style>
