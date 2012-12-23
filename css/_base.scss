@@ -1,8 +1,8 @@
-// ==========================================================================
-// HTML5 Boilerplate Base styles - h5bp.com (generated via initializr.com)
-// ========================================================================== */
+// ===============================
+// HTML5 Boilerplate Base styles
+// =============================== */
 
-// Hammer contains all of the Bourboun Mixins (http://bourbon.io/) 
+// Hammer and CodeKit contains all of the Bourboun Mixins (http://bourbon.io/) 
  
 
 // apply a natural box layout model to all elements - Danny Smith 1 Oct 12 */
@@ -68,8 +68,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* @group Generic */
-
 html,body // Fix for whitespace on right bug in FF */
 {
     width: 100%;
@@ -77,6 +75,34 @@ html,body // Fix for whitespace on right bug in FF */
     padding: 0px;
     overflow-x: hidden; 
 }
+
+//Uses classes assed by JS.
+.mac h1,
+.mac h2,
+.mac h3,
+.mac h4 {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+// ==========================================================================
+// Custom Fonts not from TypeKit
+// ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+// ==========================================================================
+// Base Styles
+// ========================================================================== */
+
+/* @group Generic */
+
 
 html {
 	font-size: 62.5%; // (16 being the default font size for most browsers - I drop it down to 10) */
@@ -91,7 +117,12 @@ body {
 
 #wrapper {
 	max-width: 1000px;
-	margin: 0 auto; padding: 0;
+	margin: 0 auto; padding: 0 2%;
+	
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	*behavior: none;
 }
 
 h1, .h1 {
@@ -104,7 +135,7 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: 24px; font-size: 2.4rem;
-	line-height: 52px; line-height: 5.2rem;
+	line-height: 39px; line-height: 3.9rem;
 	font-weight: normal;
 	margin: 0 0 26px 0;
 	margin-bottom: 2.6rem;
@@ -119,24 +150,10 @@ h3, .h3 {
 	
 }
 
-p, .p {
+p, .p, ul, ol {
 	font-size: 16px; font-size: 1.6rem;
 	margin: 0 0 26px 0;
 	margin-bottom: 2.6rem;
 }
 
-.mac h1,
-.mac h2,
-.mac h3,
-.mac h4 {
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
 /* @end */
-
-
-
-
-// ==========================================================================
-// Custom Fonts not from TypeKit
-// ========================================================================== */
