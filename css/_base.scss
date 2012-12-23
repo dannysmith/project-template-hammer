@@ -1,10 +1,7 @@
-// ===============================
-// HTML5 Boilerplate Base styles
-// =============================== */
-
-// Hammer and CodeKit contains all of the Bourboun Mixins (http://bourbon.io/) 
+// =======================
+// Fixes - From HTML5 BP
+// ======================= */
  
-
 // apply a natural box layout model to all elements - Danny Smith 1 Oct 12 */
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
@@ -18,55 +15,6 @@
     width: device-width;
 }
 	
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-img {
-    vertical-align: middle;
-		max-width: 100%;
-		position: relative;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
 
 html,body // Fix for whitespace on right bug in FF */
 {
@@ -100,9 +48,24 @@ html,body // Fix for whitespace on right bug in FF */
 // ==========================================================================
 // Base Styles
 // ========================================================================== */
+// Hammer and CodeKit contains all of the Bourboun Mixins (http://bourbon.io/) 
+
 
 /* @group Generic */
 
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+html, button, input, select, textarea {
+    color: #222;
+}
 
 html {
 	font-size: 62.5%; // (16 being the default font size for most browsers - I drop it down to 10) */
@@ -156,4 +119,35 @@ p, .p, ul, ol {
 	margin-bottom: 2.6rem;
 }
 
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+		max-width: 100%;
+		position: relative;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
 /* @end */
