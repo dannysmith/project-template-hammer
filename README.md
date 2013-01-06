@@ -1,4 +1,4 @@
-# Project Template (CodeKit)
+# Project Template (Hammer)
 
 This is a base tempate for building static sites using [Hammer](http://hammerformac.com/). It's based partially on [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate). There is a similar template for those that use CodeKit [here](https://github.com/manyhatsdesign/project-template-codekit).
 
